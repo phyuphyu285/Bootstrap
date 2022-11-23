@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="js/bootstrap.bundle.js"></script>
+    <title>Navigation Bar</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-black navbar-light navbar-fixed-top">
+    <div class="container mt-3">
+        <a class="navbar-brand"><img src="images/appple.PNG" height="50px" width="50px"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu">
+            <span class="navbar-toggler-icon"><i class="fa fa-navicon" style="color:white ; font-size: 27px;"></i></span>
+        </button>
+        <div class=" collapse navbar-collapse justify-content-end "  id="mymenu">
+            <ul class="navbar-nav nav-pills" >
+                <li class="nav-item"><a class="nav-link" href="#" style="color:white;">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" style="color:white;">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" style="color:white;">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" style="color:white;">Portfolio</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:white;">Our Service</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Service 1</a></li>
+                    <li><a class="dropdown-item" href="#">Service 2</a></li>
+                    <li><a class="dropdown-item" href="#">Service 3</a></li>
+                </ul>
+                </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:white;">Blogs</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">1st topic</a></li>
+                <li><a class="dropdown-item" href="#">2nd topic</a></li>
+                <li><a class="dropdown-item" href="#">3rd topic</a></li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:white;">Other Pages</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">page 1</a></li>
+                <li><a class="dropdown-item" href="#">page 2</a></li>
+                <li><a class="dropdown-item" href="#">page 3</a></li>
+            </ul>
+            </li>
+        
+        </ul>
+        </div>
+        
+</div>
+       
+</nav>
+<div class="carousel slide" data-bs-ride="carousel" id="carousel_id">
+    <ol class="carousel-indicators">
+<li data-bs-target="#carousel_id" data-bs-slide-to="0" class="active"></li>
+<li data-bs-target="#carousel_id" data-bs-slide-to="1"></li>
+<li data-bs-target="#carousel_id" data-bs-slide-to="2"></li>
+    </ol>
+<div class="carousel-inner">
+<div class="carousel-item active" data-bs-interval="1900">
+       <img src="images/la.jpg" alt="la" class="d-block w-100" height="500px">
+       <div class="carousel-caption" style="background-color:rgba(5, 3, 3, 0.5);">
+        <h4>Slide 1</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ut est deleniti odit voluptatum pariatur maxime esse, dignissimos saepe voluptate sequi illo magnam, praesentium ad necessitatibus! Repellat voluptates excepturi aliquam!</p>
+       </div>
+</div>
+<div class="carousel-item" data-bs-interval="1900">
+    <img src="images/Staying At The Aspen Alpin Hotel in Grindelwald, Switzerland.png" alt="la" class="d-block w-100" height="500px">
+    <div class="carousel-caption" style="background-color:rgba(5, 3, 3, 0.5);">
+        <h4>Slide 2</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quidem in illo dolores expedita vero amet rerum commodi sit corporis, velit reiciendis? Quas, consequatur! Est at accusamus delectus laborum dolores?</p>
+       </div>
+</div>
+<div class="carousel-item" data-bs-interval="1900">
+    <img src="images/phto.PNG" alt="la" class="d-block w-100" height="500px">
+    <div class="carousel-caption" style="background-color:rgba(5, 3, 3, 0.5);">
+        <h4>Slide 3</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta molestias eius dolorem sit consectetur earum expedita blanditiis dolore magni dignissimos quasi nemo, illum labore non quos quidem delectus, similique recusandae.</p>
+       </div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#carousel_id" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#carousel_id" data-bs-slide="next"> 
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+<div class="container mt-4">
+    <h4>Welcome to Modern Business.</h4>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-secondary">
+                    Card title
+                </div>
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! Sed laborum voluptate eaque ea deleniti rerum aliquam? Blanditiis at hic omnis eligendi!</p>
+            </div>
+            <div class="card-footer d-flex justify-content-start bg-secondary">
+                <a class="btn btn-primary" href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-secondary">
+                    Card title
+                </div>
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! Sed laborum voluptate eaque ea deleniti rerum aliquam? Blanditiis at hic omnis eligendi!</p>
+            </div>
+            <div class="card-footer d-flex justify-content-start bg-secondary">
+                <a class="btn btn-primary" href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-secondary">
+                    Card title
+                </div>
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! Sed laborum voluptate eaque ea deleniti rerum aliquam? Blanditiis at hic omnis eligendi!</p>
+            </div>
+            <div class="card-footer d-flex justify-content-start bg-secondary">
+                <a class="btn btn-primary" href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+    <h4>Portfolio Heading</h4>
+    <div class="col-md-4">
+            <div class="card">
+            <div class="card-body">
+                 <img src="images/mothcub.png" class="card-img" style="height:150px; width:320px;">
+                <h5>Project 1</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+            <div class="card-body">
+                 <img src="images/la.jpg" class="card-img" style="height:150px; width:320px;">
+                <h5>Project 2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+            <div class="card-body">
+                 <img src="images/phto.PNG" class="card-img" style="height:150px; width:320px;">
+                <h5>Project 3</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! </p>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="row mt-4">
+        <div class="col-md-4">
+                <div class="card">
+                <div class="card-body">
+                     <img src="images/Staying At The Aspen Alpin Hotel in Grindelwald, Switzerland.png" class="card-img" style="height:150px; width:320px;">
+                    <h5>Project 4</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! </p>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                <div class="card-body">
+                     <img src="images/fv.jpg" class="card-img" style="height:150px; width:320px;">
+                    <h5>Project 5</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! </p>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                <div class="card-body">
+                     <img src="images/images.png" class="card-img" style="height:150px; width:320px;">
+                    <h5>Project 6</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore rem maiores quod, omnis ut corporis illum! </p>
+                </div>
+                </div>
+            
+            
+        </div>
+        </div>
+
+
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h4>Modern Business Features</h4>
+        <p>The modern business features are:</p>
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magni dignissimos, beatae dolorem facilis debitis quasi quam</p>
+    </div>
+    <div class="col-md-6">
+        <img src="images/la.jpg" style="width:550px; height:210px;">
+    </div>
+</div>
+<hr>
+<div class="row mt-4">
+    <div class="col-md-10">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam eos adipisci, libero minima quas at. </p>
+    </div>
+    <div class="col-md-2 d-flex justify-content-end">
+        <a class="btn btn-secondary" href="#">Call to Action</a>
+    </div>
+</div>
+<div class="col-md-12 bg-secondary mt-4" style="height:90px ;text-align: center;">
+    <p>Copyright@ your website 2020</p>
+</div>
+
+<div class="carousel slide mt-4" data-bs-ride="carousel" id="carousel_id2">
+<div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1900">
+        <img src="images/aapple.PNG" style="height:120px; width:130px; margin-right: 40px; margin-left: 50px;">
+        <img src="images/fv.jpg"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/la.jpg"   style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/phto.PNG"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/appple.PNG"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/Staying At The Aspen Alpin Hotel in Grindelwald, Switzerland.png" style="height:120px; width:130px;">
+    </div>
+
+    <div class="carousel-item " data-bs-interval="1900">
+        <img src="images/fv.jpg" style="height:120px; width:130px; margin-right: 40px; margin-left: 50px;">
+        <img src="images/la.jpg"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/phto.PNG"   style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/appple.PNG"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/Staying At The Aspen Alpin Hotel in Grindelwald, Switzerland.png"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/aapple.PNG" style="height:120px; width:130px;">
+    </div>
+
+    <div class="carousel-item " data-bs-interval="1900">
+        <img src="images/la.jpg" style="height:120px; width:130px; margin-right: 40px; margin-left: 50px;">
+        <img src="images/phto.PNG"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/appple.PNG"   style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/Staying At The Aspen Alpin Hotel in Grindelwald, Switzerland.png"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/aapple.PNG"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/fv.jpg" style="height:120px; width:130px;">
+    </div>
+
+    <div class="carousel-item" data-bs-interval="1900">
+        <img src="images/phto.PNG" style="height:120px; width:130px; margin-right: 40px; margin-left: 50px;">
+        <img src="images/appple.PNG" style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/Staying At The Aspen Alpin Hotel in Grindelwald, Switzerland.png" style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/aapple.PNG" style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/fv.jpg" style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/la.jpg" style="height:120px; width:130px;">
+    </div>
+
+    <div class="carousel-item " data-bs-interval="1900">
+        <img src="images/appple.PNG" style="height:120px; width:130px; margin-right: 40px; margin-left: 50px;">
+        <img src="images/Staying At The Aspen Alpin Hotel in Grindelwald, Switzerland.png"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/aapple.PNG"   style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/fv.jpg"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/la.jpg"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/phto.PNG" style="height:120px; width:130px;">
+    </div>
+
+    <div class="carousel-item " data-bs-interval="1900">
+        <img src="images/Staying At The Aspen Alpin Hotel in Grindelwald, Switzerland.png" style="height:120px; width:130px; margin-right: 40px; margin-left: 50px;">
+        <img src="images/aapple.PNG"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/fv.jpg"   style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/la.jpg"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/phto.PNG"  style="height:120px; width:130px; margin-right: 40px;">
+        <img src="images/appple.PNG" style="height:120px; width:130px;">
+    </div>
+
+    
+
+</div>
+<a class="carousel-control-prev" href="#carousel_id2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#carousel_id2" data-bs-slide="next"> 
+    <span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+</div>
+</div>
+    
+</div>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="custom.css" rel="stylesheet">
+  
+</head>
+<body>
+ <div class="container">
+    <div class="row">
+
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8 mt-3">
+            
+            <form class="bg-light p-2 shadow border rounded-3">
+                <h3>Sign Up</h3>
+                <div class="mb-2">                                       
+                    <label class="form-label"></label>
+                    <input list="title" class="form-control" placeholder="Enter title">                   
+                    <datalist id="title">
+                       <option value="Mr">Mr</option>
+                       <option value="Ms">Ms</option>
+                       <option value="Mrs">Mrs</option>
+                    </datalist>
+               </div>
+                <div class="">
+                    <div class="row mb-2">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="firstname" placeholder="First Name">
+                                                   </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="surname" placeholder="Surname">
+                        </div>
+                    </div>      
+                   
+                </div>
+                <div class="mb-2">
+                    <input type="text" class="form-control" name="email" placeholder="Mobile Number or Email Address">
+                </div>
+                <div class="mb-2">
+                    <input type="password" class="form-control" name="password" placeholder="Enter Password">
+                </div>
+                <div class="row mb-2">
+                    <label class="form-level">Date of birth<span class="required-field" style="color:red">*</span></label>
+                    <div class="col-md-4">
+                        <select class="form-select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-select">
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-select">
+                            <option value="1">1990</option>
+                            <option value="2">1991</option>
+                            <option value="3">1992</option>
+                            <option value="4">1993</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <label class="form-label">Gender</label>
+                    
+                    <div class="col-md-4">
+                        <label class="form-check-level">Male</label>
+                       <input type="radio" class="form-check-input" name="gender">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-check-level">Female</label>
+                       <input type="radio" class="form-check-input" name="gender">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-check-level">Other</label>
+                       <input type="radio" class="form-check-input" name="gender">
+                    </div>
+
+                </div>
+                <div class="mb-2">
+                    <label class="form-label">Description</label>
+                    <textarea class="form-control" name="Description" rows="3"></textarea>                    
+                </div>
+                <div class="mb-2">
+                    <label class="form-label">Attachments</label>
+                    <input type="file" class="form-control">
+                </div>
+                <div class="row mb-2 mx-auto">
+                    <div class="col-md-4">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">HTML</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">CSS</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Bootstrap</label>
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <div class="form-check form-switch">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Agree to the copyright.</label>
+                    </div>
+                </div>                  
+               
+            </form>
+            
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+ </div>
+</body>
+</html>
